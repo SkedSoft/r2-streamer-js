@@ -325,7 +325,7 @@ Lirtuel.be: https://www.lirtuel.be/v1/home.opds2 => http://streamer.edrlab.org/o
 
 eBiblioMedia (Lausanne Fondation Suisse): https://bm.ebibliomedia.ch/v1/home.opds2 => http://streamer.edrlab.org/opds-v2-browse/https%3A%2F%2Fbm.ebibliomedia.ch%2Fv1%2Fhome.opds2
 
-CantookStation / Pretnumerique.ca / Bibliopresto.ca: https://missmills.cantookstation.com/v1/home.opds2 and http://quebec.pretnumerique.ca/v1/home.opds2 and http://montreal.pretnumerique.ca/v1/home.opds2 and https://demoreader.cantookstation.com/v1/home.opds2 and https://demo-testapp.cantookstation.com/v1/home.opds2 and ... many more, see https://sols.cantookstation.com/find_library and http://www.pretnumerique.ca/find_library and https://bibliopresto.ca => http://streamer.edrlab.org/opds-v2-browse/
+CantookStation / Pretnumerique.ca / Bibliopresto.ca: https://missmills.cantookstation.com/v1/home.opds2 and http://quebec.pretnumerique.ca/v1/home.opds2 and http://montreal.pretnumerique.ca/v1/home.opds2 and https://demoreader.cantookstation.com/v1/home.opds2 and https://demo-testapp.cantookstation.com/v1/home.opds2 and ... many more, see https://sols.cantookstation.com/find_library and http://www.pretnumerique.ca/find_library and https://bibliopresto.ca and http://madrid.ebiblio.es/v1/home.opds2 => http://streamer.edrlab.org/opds-v2-browse/
 
 NYPL registry: https://libraryregistry.librarysimplified.org/libraries => http://streamer.edrlab.org/opds-v2-browse/https%3A%2F%2Flibraryregistry.librarysimplified.org%2Flibraries
 
