@@ -197,7 +197,7 @@
     "bundle-sorcery:es8-es2017": "sorcery --input ./dist/bundle-es8-es2017/server-cli_.js --output ./dist/bundle-es8-es2017/server-cli.js && rimraf ./dist/bundle-es8-es2017/server-cli_.js && rimraf ./dist/bundle-es8-es2017/server-cli_.js.map",
     "bundle-uglify:es8-es2017": "cpy --flat ./dist/bundle-es8-es2017/server-cli.js.map ./dist/bundle-es8-es2017/ --rename=server-cli-.js.map && json -I -f ./dist/bundle-es8-es2017/server-cli-.js.map -e \"this.sourcesContent=false\" && terser ./dist/bundle-es8-es2017/server-cli.js --output ./dist/bundle-es8-es2017/server-cli.min.js --xxcompress --xxmangle --keep-classnames --keep-fnames --beautify \"beautify=false,ecma=6,indent_level=0\" --source-map \"root='',url='server-cli.min.js.map',content='./dist/bundle-es8-es2017/server-cli-.js.map'\" && rimraf ./dist/bundle-es8-es2017/server-cli-.js.map",
     "bundle:es8-es2017": "echo \"bundle skip.\"",
-    "bundle:es8-es2017_": "mkdirp ./dist/bundle-es8-es2017 && npm run bundle-browserify:es8-es2017 && npm run bundle-exorcist:es8-es2017 && npm run bundle-sorcery:es8-es2017 && npm run bundle-uglify:es8-es2017",
+    "bundle:es8-es2017_": "mkdirp ./dist/bundle-es8-es2017 && npm run bundle-browserify:es8-es2017 && npm run bundle-exorcist:es8-es2017 && npm run bundle-sorcery:es8-es2017 && npm run bundle-uglify:es8-es2017"
   },
   "importSort": {
     ".ts": {
