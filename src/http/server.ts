@@ -54,6 +54,7 @@ export interface IServerOptions {
     disableOPDS?: boolean;
     enableSignedExpiry?: boolean;
     maxPrefetchLinks?: number;
+    middleware?: (req: express.Request, res: express.Response, next: express.NextFunction) => void
 }
 
 // this ceiling value seems very arbitrary ... what would be a reasonable default value?
@@ -113,6 +114,10 @@ export class Server {
         const staticOptions = {
             etag: false,
         };
+        //Work around to control some of the routes
+        if(options?.middleware)
+            this.expressApp.use(options.middleware);
+
         if (!this.disableReaders) {
             this.expressApp.use("/readerNYPL", express.static("misc/readers/reader-NYPL", staticOptions));
             this.expressApp.use("/readerHADRIEN", express.static("misc/readers/reader-HADRIEN", staticOptions));
